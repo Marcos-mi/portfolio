@@ -26,6 +26,7 @@ body{
 }
 #proyectos .card p{
     height: 100px;
+    font-size: 14px;
 }
 .btn{
     color: #370a6d;
@@ -66,16 +67,21 @@ body{
 .integrador img{
     height: 210px;
 }
+#inicio .div-cohete{
+    height: 450px;
+}
+#inicio .cohete{
+    height: 420px;
+}
+#inicio .cohete:hover{
+    height: 440px;
+}
 #inicio p{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-weight: 500;
     color: white;
-
-    border-radius: 1px;
-}
-.cohete{
-    height: 410px;
-}
-.cohete:hover{
-    height: 425px;
 }
 textarea{
     resize: none;
@@ -99,10 +105,6 @@ textarea {
 .btn:hover{
     background-color: #370a6d;
     color: white;
-}
-.fa-whatsapp{
-    color: white;
-    width: 30px;
 }
 .btn-whatsapp{
     width: 55px;
@@ -183,4 +185,54 @@ nav .active{
     padding: 8px 0 0 0;
     border-radius: 80px;
     margin: 0 8px;
+}
+@media (max-width: 750px){
+    #contacto, #proyectos, #inicio{
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #contacto footer a, #inicio footer a{
+        color: #E20000;
+    }
+    #contacto footer .fa-github, #inicio footer .fa-github {
+        font-size: 30px;
+        color: #E20000;
+    }
+    #contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+        color: white;
+        background-color: #E20000;
+        font-size: 20px;
+        border: 0px;
+        height: 32px;
+        width: 32px;
+        text-align: center;
+        padding: 8px 0 0 0;
+        border-radius: 80px;
+        margin: 0 8px;
+    }
+    #contacto  .sponsor, #inicio .sponsor{
+        color: #E20000;
+    }
+    #contacto .btn-whatsapp, #proyectos .btn-whatsapp, #inicio .btn-whatsapp, #sobre-mi .btn-whatsapp{
+        right:10px;
+    }
+    #contacto .fa-whatsapp, #proyectos .btn-whatsapp, #inicio .btn-whatsapp, #sobre-mi .fa-whatsapp{
+        font-size: 32px;
+        color: white;
+    }
+    #contacto .btn, #inicio .btn{
+        background-color: #E20000;
+        color: white;
+    }
+    #contacto .btn:hover,  #contacto .btn:hover{
+        background-color: #370a6d;
+        color: white;
+    }
+    #inicio p{
+        color: #E20000;
+        border: 1px solid #E20000;
+        border-radius: 15px;
+        font-weight: 500;
+    }
 }
