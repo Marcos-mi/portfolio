@@ -14,7 +14,7 @@ body{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
 }
-#contacto h1, #proyectos h1{
+#contacto h1, #proyectos h1, #sobre-mi h1{
      color: #E20000;
 }
 #proyectos h2 {
@@ -36,6 +36,21 @@ body{
 .btn:hover{
     color:white;
     background-color: #370a6d;
+}
+.mi-foto{
+    border-radius: 600px;
+   height: 300px;
+}
+#sobre-mi h2{
+    font-size: 20px;
+}
+#sobre-mi h3{
+    font-size: 15px;
+    color: black;
+    font-weight: 250;
+}
+#sobre-mi .card {
+    height: 182px;
 }
 .btn-rojo{
     color: white;
@@ -82,6 +97,13 @@ body{
     border-radius: 15px;
     font-weight: 500;
     color: white;
+}
+#sobre-mi .btn{
+    background-color: #E20000;
+    font-weight: 100;
+}
+#sobre-mi .btn:hover{
+    background-color: #370a6d;
 }
 textarea{
     resize: none;
