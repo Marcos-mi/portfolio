@@ -6,7 +6,7 @@ body{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
 }
-#proyectos, #sobre-mi{
+#proyectos{
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
 }

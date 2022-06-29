@@ -49,13 +49,13 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-7">
                     <h1 class="mt-4 pb-4">Sobre mí</h1>
                     <p class="pb-4">Apasionado por la tecnología. Soy estudiante de
                         programación Full Stack y de Base de datos.</p>
                     <a href="contacto.html" class="btn text-white">Enviar Mensaje</a>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-5 col-12 mt-sm-0 mt-5">
                     <img src="imageS/profile-Marcos-Miño.png" alt="Marcos Miño" class="mi-foto img-fluid">
                 </div>
             </div>
@@ -69,73 +69,73 @@
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Javascript</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/javascript.jpeg">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>PHP</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/php.jpg">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>HTML5</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/html.png">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>React.js</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/react.png">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>jQuery</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/Jquery.jpg">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-4">
                         <h3>Bootstrap</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/bootstrap.png">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-5">
                         <h3>Laravel</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/laravel.png">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>MySQL</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/MySQL.jpg">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>CSS</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/css.png">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>Git</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/git.png">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
                         <h3>Apache</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/Apache.png">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Mercadopago</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/Mercadopago.jpg">
