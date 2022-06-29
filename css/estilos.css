@@ -28,6 +28,12 @@ body{
     height: 100px;
     font-size: 14px;
 }
+#experiencia h2, #formacion h2 {
+    font-weight: 400;
+}
+#experiencia h2{
+    color: #370a6d;
+}
 .btn{
     color: #370a6d;
     background-color: white;
@@ -44,6 +50,9 @@ body{
 }
 #sobre-mi h2{
     font-size: 20px;
+}
+.micv a{
+    font-weight: 300 !important;
 }
 #sobre-mi h3{
     font-size: 15px;
