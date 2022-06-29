@@ -14,6 +14,7 @@
 </head>
 <body id="inicio" class="d-flex flex-column h-100 container">
     <header class="container">
+
         <nav class="navbar navbar-expand-md mb-4">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -59,7 +60,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center mb-4">
-                <a href="proyectos.html" class="btn ">Conoce mis proyectos</a>
+                <a href="proyectos.php" class="btn ">Conoce mis proyectos</a>
             </div>
         </div>
 
