@@ -38,8 +38,9 @@ body{
     background-color: #370a6d;
 }
 .mi-foto{
-    border-radius: 600px;
-   height: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 70%;
 }
 #sobre-mi h2{
     font-size: 20px;
@@ -51,6 +52,9 @@ body{
 }
 #sobre-mi .card {
     height: 182px;
+}
+.experiencial {
+    color: #370a6d;
 }
 .btn-rojo{
     color: white;
