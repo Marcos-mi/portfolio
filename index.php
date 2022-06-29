@@ -87,5 +87,6 @@
     <div class="btn-whatsapp">
         <a href="https://api.whatsapp.com/send?phone=541164410033" target="_blank" title="Whatsapp" ><i class="fa-brands fa-whatsapp"></i></a>
     </div>
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

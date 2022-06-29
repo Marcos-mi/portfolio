@@ -221,6 +221,15 @@ nav .active{
     border-radius: 80px;
     margin: 0 8px;
 }
+.gris{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+}
+.gris:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter:grayscale(0%);
+}
+
 @media (max-width: 750px){
     #contacto, #proyectos, #inicio{
         background-image: url(../images/fondo-proyectos.png);

@@ -72,73 +72,73 @@
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Javascript</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/javascript.jpeg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/javascript.jpeg" alt="Javascript">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>PHP</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/php.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/php.jpg" alt="PHP">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>HTML5</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/html.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/html.png" alt="HTML5">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>React.js</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/react.png">
+                        <img class="img-fluid mx-auto" width="60" src="images/react.png" alt="React.js">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>jQuery</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/Jquery.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/Jquery.jpg" alt="jQuery">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-4">
                         <h3>Bootstrap</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/bootstrap.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/bootstrap.png" alt="Bootstrap">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-5">
                         <h3>Laravel</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/laravel.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/laravel.png" alt="Laravel">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>MySQL</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/MySQL.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/MySQL.jpg" alt="MySQL">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>CSS</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/css.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/css.png" alt="CSS">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>Git</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/git.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/git.png" alt="Git">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
                         <h3>Apache</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/Apache.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/Apache.png" alt="Apache">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Mercadopago</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/Mercadopago.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/Mercadopago.jpg" alt="Mercadopago">
                     </div>
                 </div>
             </div>
@@ -150,14 +150,73 @@
                     <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
                 </div>
             </div>
-        </section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 pt-5">
-                    <h3 class="experiencial">Experiencia laboral</h3>
+                <div class="row shadow">
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10">
+                        <h3>Director- Founder</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>2016 - presente</h5>
+                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
+                    </div>
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10">
+                        <h3>Director- Founder</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>2016 - presente</h5>
+                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
+                    </div>
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10">
+                        <h3>Director- Founder</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>2016 - presente</h5>
+                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
+                    </div>
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10">
+                        <h3>Director- Founder</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>2016 - presente</h5>
+                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="container" id="Formacion">
+            <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                <h2><i class="fas fa-graduation-cap"></i> Formación acádémica</h2>
+                </div>
+            </div>
+                <div class="row shadow">
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h3>Director- Founder</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>2016 - presente</h5>
+                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos.</p>
+                    </div>
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h3>Director- Founder</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>2016 - presente</h5>
+                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos.</p>
+                    </div>
+            </div>
+        </section>
     </main>
     <footer class="container mt-auto pb-4">
         <div class="row">
@@ -181,5 +240,4 @@
     </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
