@@ -37,7 +37,7 @@
                     </ul>
                     <div>
                         <li class="cv p-2 btn mt-1">
-                             <a href="" target="_blank">Descarga mi CV<i class="fa-solid fa-download"></i></a>
+                             <a href="#">Descarga mi CV<i class="fa-solid fa-download"></i></a>
                         </li>
                     </div>
                 </div>
