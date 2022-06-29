@@ -48,7 +48,7 @@
     <main class="container">
         <div class="row">
             <div class="col-sm-6 col-12 offset-sm-3 my-5 text-center div-cohete">
-                <a href="proyectos.html"><img src="images/cohete.svg" alt="" class="cohete"></a>
+                <a href="proyectos.php"><img src="images/cohete.svg" alt="" class="cohete"></a>
             </div>
         </div>
         <div class="row">
