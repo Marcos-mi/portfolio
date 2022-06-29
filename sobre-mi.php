@@ -25,19 +25,23 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link active" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
-
+                    <div>
+                        <li class="cv p-2 btn mt-1 micv">
+                             <a href="#">Descarga mi CV<i class="fa-solid fa-download"></i></a>
+                        </li>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -60,7 +64,7 @@
         <section class="color-gradiente mt-5 pb-4">
             <div class="container ">
                 <div class="row">
-                    <div class="col-12 text-white mt-4">
+                    <div class="col-12 text-white my-5">
                         <h2>Stack tecnológico</h2>
                     </div>
                 </div>
@@ -102,25 +106,25 @@
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
+                    <div class="px-4 py-5 card mx-0 mb-4 pb-sm-5">
                         <h3>Laravel</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/laravel.png">
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
+                    <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>MySQL</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/MySQL.jpg">
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
+                    <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>CSS</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/css.png">
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
+                    <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>Git</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="images/git.png">
                     </div>
@@ -138,6 +142,13 @@
                     </div>
                 </div>
             </div>
+            </div>
+        </section>
+        <section class="container" id="experiencia">
+            <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                    <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
+                </div>
             </div>
         </section>
         <div class="container">
