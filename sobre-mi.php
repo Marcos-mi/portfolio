@@ -39,7 +39,7 @@
                     </ul>
                     <div>
                         <li class="cv p-2 btn mt-1 micv">
-                             <a href="#">Descarga mi CV<i class="fa-solid fa-download"></i></a>
+                             <a href="images/Cv-Marcos-Miño (2).pdf">Descarga mi CV<i class="fa-solid fa-download"></i></a>
                         </li>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                     <h1 class="mt-4 pb-4">Sobre mí</h1>
                     <p class="pb-4">Apasionado por la tecnología. Soy estudiante de
                         programación Full Stack y de Base de datos.</p>
-                    <a href="contacto.html" class="btn text-white">Enviar Mensaje</a>
+                    <a href="contacto.php" class="btn text-white">Enviar Mensaje</a>
                 </div>
                 <div class="col-sm-5 col-12 mt-sm-0 mt-5">
                     <img src="imageS/profile-Marcos-Miño.png" alt="Marcos Miño" class="mi-foto img-fluid">
@@ -155,10 +155,19 @@
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-10">
-                        <h3>Director- Founder</h3>
-                        <h4>DEPCSUITE SA</h4>
-                        <h5>2016 - presente</h5>
-                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
+                        <h3>Técnico</h3>
+                        <h4>Marcos cell</h4>
+                        <h5>(Noviembre) 2018 - (Julio) 2021</h5>
+                        <p></p>
+                    </div>
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10">
+                        <h3>Atención al cliente</h3>
+                        <h4>Art de limpieza</h4>
+                        <h5>(Septiembre) 2021 - (Febrero) 2022</h5>
+                        <p>Venta de art de limpieza y reposición de productos.</p>
                     </div>
                     <div class="col-2 p-5">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
@@ -167,27 +176,8 @@
                         <h3>Director- Founder</h3>
                         <h4>DEPCSUITE SA</h4>
                         <h5>2016 - presente</h5>
-                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
                     </div>
-                    <div class="col-2 p-5">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
-                    </div>
-                    <div class="col-10">
-                        <h3>Director- Founder</h3>
-                        <h4>DEPCSUITE SA</h4>
-                        <h5>2016 - presente</h5>
-                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
-                    </div>
-                    <div class="col-2 p-5">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
-                    </div>
-                    <div class="col-10">
-                        <h3>Director- Founder</h3>
-                        <h4>DEPCSUITE SA</h4>
-                        <h5>2016 - presente</h5>
-                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos. Coordinación del área de sistemas y educación. Docente de cursos tecnológicos en: Laravel, PHP, HTML, CSS, Javascript, jQuery, AJAX, React.js, Bootstrap, GitLab, HTTP Apache2, SSL, MySQL, HAProxy, ProFTPd, virtualización con VMware ESXi, GNU/Linux Debian.</p>
-                    </div>
-                </div>
             </div>
         </section>
         <section class="container" id="Formacion">
@@ -201,20 +191,94 @@
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-4">
-                        <h3>Director- Founder</h3>
-                        <h4>DEPCSUITE SA</h4>
-                        <h5>2016 - presente</h5>
-                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos.</p>
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>2022 - 2022</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
                     </div>
                     <div class="col-2 p-5">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-4">
-                        <h3>Director- Founder</h3>
-                        <h4>DEPCSUITE SA</h4>
-                        <h5>2016 - presente</h5>
-                        <p>Lidero el desarrollo y posicionamiento de la empresa en sus tres líneas de negocio: cloud services, desarrollo de sistemas y educación IT en Buenos Aires, con sedes en Puerto Madero y Belgrano. Celebración de convenios estratégicos. Desarrollo de nuevos productos.</p>
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>2022 - 2022</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
                     </div>
+                    <div class="col-2 p-5">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>2022 - 2022</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
+                    </div>
+            </div>
+        </section>  
+        <section class="container" id="desarrollo"> 
+        <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                <h2><i class="fas fa-graduation-cap"></i> Cursos de desarrollo profesional</h2>
+                </div>
+            </div>
+            <div class="row shadow">
+                    <div class="col-2 p-5 gris">
+                        <img src="images/logo-depcsuite.svg" alt="DePcSuite SA" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h3>programación Web Full Stack</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>(Mayo) 2022 - Actualidad</h5>
+                    </div>
+                    <div class="col-2 p-2 gris">
+                        <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h3>Programación Web Full Stack</h3>
+                        <h4>Educación IT</h4>
+                        <h5>(Abril) 2022 - Actualidad</h5>                    </div>
+                    <div class="col-2 p-5 gris">
+                        <img src="images/udemy.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h3>Desarrollo Web</h3>
+                        <h4>UDEMY-Juan Pablo De la Torre Valdez</h4>
+                        <h5>(Febrero) 2022 - Actualidad</h5>                    </div>
+            </div>
+        </section>
+        <section id="idiomas">
+            <div class="container">
+                <div class="row py-5 mx-0">
+                    <div class="col-sm-6 col-12 pb-3 pb-sm-0">
+                        <div class="row mr-sm-1 bg-white shadow me-sm-1">
+                            <div class="col-4 text-center card">
+                                <i class="fas fa-comment-alt"></i>
+                            </div>
+                            <div class="col-8 p-5">
+                                <h2>IDIOMAS</h2>
+                                <ul>
+                                    <li>ESPAÑOL - Nativo</li>
+                                    <li>INGLÉS - Técnico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="row bg-white shadow">
+                            <div class="col-4 text-center card">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="col-8 p-5">
+                                <h2>HOBBIES</h2>
+                                <ul>
+                                    <li>Cocinar</li>
+                                    <li>Fútbol</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
