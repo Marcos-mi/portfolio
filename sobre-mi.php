@@ -151,64 +151,64 @@
                 </div>
             </div>
                 <div class="row shadow">
-                    <div class="col-2 p-5">
+                    <div class="col-2 p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-10">
+                    <div class="col-10 p-3">
                         <h3>Técnico</h3>
                         <h4>Marcos cell</h4>
                         <h5>(Noviembre) 2018 - (Julio) 2021</h5>
-                        <p></p>
+                        <p>Reparación de hardware y software</p>
                     </div>
-                    <div class="col-2 p-5">
+                    <div class="col-2 p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-10">
+                    <div class="col-10 p-3">
                         <h3>Atención al cliente</h3>
                         <h4>Art de limpieza</h4>
                         <h5>(Septiembre) 2021 - (Febrero) 2022</h5>
                         <p>Venta de art de limpieza y reposición de productos.</p>
                     </div>
-                    <div class="col-2 p-5">
+                    <div class="col-2 p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-10">
-                        <h3>Director- Founder</h3>
-                        <h4>DEPCSUITE SA</h4>
-                        <h5>2016 - presente</h5>
+                    <div class="col-10 p-3">
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>Lorem</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
                     </div>
             </div>
         </section>
-        <section class="container" id="Formacion">
+        <section class="container" id="formacion">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
                 <h2><i class="fas fa-graduation-cap"></i> Formación acádémica</h2>
                 </div>
             </div>
-                <div class="row shadow">
-                    <div class="col-2 p-5">
+                <div class="row shadow p-1">
+                    <div class="col-2 p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 p-3">
                         <h3>Lorem</h3>
                         <h4>Lorem</h4>
                         <h5>2022 - 2022</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
                     </div>
-                    <div class="col-2 p-5">
+                    <div class="col-2 p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 p-3">
                         <h3>Lorem</h3>
                         <h4>Lorem</h4>
                         <h5>2022 - 2022</h5>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
                     </div>
-                    <div class="col-2 p-5">
+                    <div class="col-2 p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 p-3">
                         <h3>Lorem</h3>
                         <h4>Lorem</h4>
                         <h5>2022 - 2022</h5>
@@ -216,42 +216,42 @@
                     </div>
             </div>
         </section>  
-        <section class="container" id="desarrollo"> 
+        <section class="container mb-5" id="desarrollo"> 
         <div class="row">
                 <div class="col-12 pt-5 pb-4">
                 <h2><i class="fas fa-graduation-cap"></i> Cursos de desarrollo profesional</h2>
                 </div>
             </div>
-            <div class="row shadow">
-                    <div class="col-2 p-5 gris">
+            <div class="row shadow p-1">
+                    <div class="col-2 p-5 my-auto gris">
                         <img src="images/logo-depcsuite.svg" alt="DePcSuite SA" class="img-fluid">
                     </div>
-                    <div class="col-4">
-                        <h3>programación Web Full Stack</h3>
+                    <div class="col-4 p-3">
+                        <h3>Programación Web Full Stack</h3>
                         <h4>DEPCSUITE SA</h4>
                         <h5>(Mayo) 2022 - Actualidad</h5>
                     </div>
-                    <div class="col-2 p-2 gris">
+                    <div class="col-2 p-5 my-auto gris">
                         <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 p-3">
                         <h3>Programación Web Full Stack</h3>
                         <h4>Educación IT</h4>
                         <h5>(Abril) 2022 - Actualidad</h5>                    </div>
-                    <div class="col-2 p-5 gris">
+                    <div class="col-2 p-5 my-auto gris">
                         <img src="images/udemy.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 p-3">
                         <h3>Desarrollo Web</h3>
                         <h4>UDEMY-Juan Pablo De la Torre Valdez</h4>
                         <h5>(Febrero) 2022 - Actualidad</h5>                    </div>
             </div>
         </section>
         <section id="idiomas">
-            <div class="container">
+            <div class="container mb-5">
                 <div class="row py-5 mx-0">
                     <div class="col-sm-6 col-12 pb-3 pb-sm-0">
-                        <div class="row mr-sm-1 bg-white shadow me-sm-1">
+                        <div class="row mr-sm-1 bg-white card-idioma shadow me-sm-1">
                             <div class="col-4 text-center card">
                                 <i class="fas fa-comment-alt"></i>
                             </div>
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-12">
-                        <div class="row bg-white shadow">
+                        <div class="row ml-sm-2 bg-white card-idioma shadow ms-sm-1">
                             <div class="col-4 text-center card">
                                 <i class="fas fa-star"></i>
                             </div>
@@ -273,7 +273,7 @@
                                 <h2>HOBBIES</h2>
                                 <ul>
                                     <li>Cocinar</li>
-                                    <li>Fútbol</li>
+                                    <li>Futbol</li>
                                 </ul>
                             </div>
                         </div>
