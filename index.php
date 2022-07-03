@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
