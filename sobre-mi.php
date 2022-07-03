@@ -145,7 +145,7 @@
             </div>
             </div>
         </section>
-        <section class="container" id="experiencia">
+        <section class="container" id="experiencia ">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
                     <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
@@ -155,7 +155,7 @@
                     <div class="col-2 p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-10 p-3">
+                    <div class="col-10 p-3 pt-4">
                         <h3>Técnico</h3>
                         <h4>Marcos cell</h4>
                         <h5>(Noviembre) 2018 - (Julio) 2021</h5>
@@ -170,10 +170,10 @@
                         <h5>(Septiembre) 2021 - (Febrero) 2022</h5>
                         <p>Venta de art de limpieza y reposición de productos.</p>
                     </div>
-                    <div class="col-2 p-5 my-auto">
+                    <div class="col-2  p-5 my-auto">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-10 p-3">
+                    <div class="col-10 pb-2 p-3">
                         <h3>Lorem</h3>
                         <h4>Lorem</h4>
                         <h5>Lorem</h5>
