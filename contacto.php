@@ -1,3 +1,7 @@
+<?php
+$pg= "contacto";
+
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 <head>
@@ -16,35 +20,7 @@
 </head>
 <body id="contacto" class="d-flex flex-column h-100 container">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2 ">
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active px-4" href="contacto.php">Contacto</a>
-                        </li>
-                        </ul>
-                        <div>
-                            <li class="cv p-2 btn mt-1">
-                                <a href="images/Cv-Marcos-Miño (2).pdf">Descarga mi CV<i class="fa-solid fa-download"></i></a>
-                            </li>
-                        </div>
-                </div>
-            </div>
-        </nav>
+       <?php include_once"menu.php" ?>
     </header>
     <main class="container">
         <div class="row">
