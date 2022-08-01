@@ -6,7 +6,7 @@ body{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
 }
-#proyectos, #sobre-mi{
+#proyectos{
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
 }
@@ -23,6 +23,18 @@ body{
     color: white;
     padding: 0px;
     margin: 0px;
+}
+#idiomas .card {
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas .fas {
+    font-size: 80px;
+    color: white;
+}
+#sobre-mi .card {
+    height: 182px;
 }
 #proyectos .card p{
     height: 100px;
@@ -171,6 +183,38 @@ textarea {
 .fa-solid .fa-download{
     color: white;
 }
+#experiencia h2, #formacion h2, #desarrollo h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+#experiencia h3, #formacion h3, #desarrollo h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#experiencia h4, #formacion h4, #desarrollo h4 {
+    font-size: 17px;
+}
+#experiencia h2, #experiencia h4 {
+    color: #370A6D;
+}
+#experiencia h5, #formacion h5, #desarrollo h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#experiencia p, #formacion p{
+        color: #6a6a6a;
+        font-size: 16px;
+}
+#formacion h2, #formacion h4 {
+    color: #E20000;
+}
+#desarrollo h2, #desarrollo h4 {
+    color: #E20000;
+}
+#idiomas {
+    background-color: #eee;
+}
 nav .active{
     border: 1px solid #E20000;
     border-radius: 20px;
@@ -221,6 +265,15 @@ nav .active{
     border-radius: 80px;
     margin: 0 8px;
 }
+.gris{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+}
+.gris:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter:grayscale(0%);
+}
+
 @media (max-width: 750px){
     #contacto, #proyectos, #inicio{
         background-image: url(../images/fondo-proyectos.png);

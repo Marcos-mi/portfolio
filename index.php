@@ -1,3 +1,7 @@
+<?php
+$pg= "inicio";
+
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 <head>
@@ -9,41 +13,13 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body id="inicio" class="d-flex flex-column h-100 container">
     <header class="container">
-
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div>
-                        <li class="cv p-2 btn mt-1">
-                             <a href="" target="_blank">Descarga mi CV<i class="fa-solid fa-download"></i></a>
-                        </li>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once"menu.php" ?> 
     </header>
     <main class="container">
         <div class="row">
@@ -87,5 +63,6 @@
     <div class="btn-whatsapp">
         <a href="https://api.whatsapp.com/send?phone=541164410033" target="_blank" title="Whatsapp" ><i class="fa-brands fa-whatsapp"></i></a>
     </div>
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

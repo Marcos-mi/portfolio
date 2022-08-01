@@ -1,3 +1,7 @@
+<?php 
+$pg= "sobre-mi";
+
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -10,52 +14,25 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body id="sobre-mi" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div>
-                        <li class="cv p-2 btn mt-1 micv">
-                             <a href="#">Descarga mi CV<i class="fa-solid fa-download"></i></a>
-                        </li>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once "menu.php"?>
     </header>
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-7">
                     <h1 class="mt-4 pb-4">Sobre mí</h1>
                     <p class="pb-4">Apasionado por la tecnología. Soy estudiante de
                         programación Full Stack y de Base de datos.</p>
-                    <a href="contacto.html" class="btn text-white">Enviar Mensaje</a>
+                    <a href="contacto.php" class="btn text-white">Enviar Mensaje</a>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-5 col-12 mt-sm-0 mt-5">
                     <img src="imageS/profile-Marcos-Miño.png" alt="Marcos Miño" class="mi-foto img-fluid">
                 </div>
             </div>
@@ -69,95 +46,218 @@
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Javascript</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/javascript.jpeg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/javascript.jpeg" alt="Javascript">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>PHP</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/php.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/php.jpg" alt="PHP">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>HTML5</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/html.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/html.png" alt="HTML5">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>React.js</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/react.png">
+                        <img class="img-fluid mx-auto" width="60" src="images/react.png" alt="React.js">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>jQuery</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/Jquery.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/Jquery.jpg" alt="jQuery">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-4">
                         <h3>Bootstrap</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/bootstrap.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/bootstrap.png" alt="Bootstrap">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-5">
                         <h3>Laravel</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/laravel.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/laravel.png" alt="Laravel">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>MySQL</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/MySQL.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/MySQL.jpg" alt="MySQL">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>CSS</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/css.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/css.png" alt="CSS">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 pb-sm-1">
                         <h3>Git</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/git.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/git.png" alt="Git">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
                         <h3>Apache</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/Apache.png">
+                        <img class="img-fluid  mx-auto" width="60" src="images/Apache.png" alt="Apache">
                     </div>
                 </div>
-                <div class="col-sm-2 text-center">
+                <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Mercadopago</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="images/Mercadopago.jpg">
+                        <img class="img-fluid  mx-auto" width="60" src="images/Mercadopago.jpg" alt="Mercadopago">
                     </div>
                 </div>
             </div>
             </div>
         </section>
-        <section class="container" id="experiencia">
+        <section class="container" id="experiencia ">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
                     <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
                 </div>
             </div>
+                <div class="row shadow">
+                    <div class="col-2 p-5 my-auto">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10 p-3 pt-4">
+                        <h3>Técnico</h3>
+                        <h4>Marcos cell</h4>
+                        <h5>(Noviembre) 2018 - (Julio) 2021</h5>
+                        <p>Reparación de hardware y software</p>
+                    </div>
+                    <div class="col-2 p-5 my-auto">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10 p-3">
+                        <h3>Atención al cliente</h3>
+                        <h4>Art de limpieza</h4>
+                        <h5>(Septiembre) 2021 - (Febrero) 2022</h5>
+                        <p>Venta de art de limpieza y reposición de productos.</p>
+                    </div>
+                    <div class="col-2  p-5 my-auto">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-10 pb-2 p-3">
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>Lorem</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
+                    </div>
+            </div>
         </section>
-        <div class="container">
+        <section class="container" id="formacion">
             <div class="row">
-                <div class="col-12 pt-5">
-                    <h3 class="experiencial">Experiencia laboral</h3>
+                <div class="col-12 pt-5 pb-4">
+                <h2><i class="fas fa-graduation-cap"></i> Formación acádémica</h2>
                 </div>
             </div>
-        </div>
+                <div class="row shadow p-1">
+                    <div class="col-2 p-5 my-auto">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 p-3">
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>2022 - 2022</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
+                    </div>
+                    <div class="col-2 p-5 my-auto">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 p-3">
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>2022 - 2022</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
+                    </div>
+                    <div class="col-2 p-5 my-auto">
+                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 p-3">
+                        <h3>Lorem</h3>
+                        <h4>Lorem</h4>
+                        <h5>2022 - 2022</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
+                    </div>
+            </div>
+        </section>  
+        <section class="container mb-5" id="desarrollo"> 
+        <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                <h2><i class="fas fa-graduation-cap"></i> Cursos de desarrollo profesional</h2>
+                </div>
+            </div>
+            <div class="row shadow p-1">
+                    <div class="col-2 p-5 my-auto gris">
+                        <img src="images/logo-depcsuite.svg" alt="DePcSuite SA" class="img-fluid">
+                    </div>
+                    <div class="col-4 p-3">
+                        <h3>Programación Web Full Stack</h3>
+                        <h4>DEPCSUITE SA</h4>
+                        <h5>(Mayo) 2022 - Actualidad</h5>
+                    </div>
+                    <div class="col-2 p-5 my-auto gris">
+                        <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
+                    </div>
+                    <div class="col-4 p-3">
+                        <h3>Programación Web Full Stack</h3>
+                        <h4>Educación IT</h4>
+                        <h5>(Abril) 2022 - Actualidad</h5>                    </div>
+                    <div class="col-2 p-5 my-auto gris">
+                        <img src="images/udemy.png" alt="sin logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 p-3">
+                        <h3>Desarrollo Web</h3>
+                        <h4>UDEMY-Juan Pablo De la Torre Valdez</h4>
+                        <h5>(Febrero) 2022 - Actualidad</h5>                    </div>
+            </div>
+        </section>
+        <section id="idiomas">
+            <div class="container mb-5">
+                <div class="row py-5 mx-0">
+                    <div class="col-sm-6 col-12 pb-3 pb-sm-0">
+                        <div class="row mr-sm-1 bg-white card-idioma shadow me-sm-1">
+                            <div class="col-4 text-center card">
+                                <i class="fas fa-comment-alt"></i>
+                            </div>
+                            <div class="col-8 p-5">
+                                <h2>IDIOMAS</h2>
+                                <ul>
+                                    <li>ESPAÑOL - Nativo</li>
+                                    <li>INGLÉS - Técnico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="row ml-sm-2 bg-white card-idioma shadow ms-sm-1">
+                            <div class="col-4 text-center card">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="col-8 p-5">
+                                <h2>HOBBIES</h2>
+                                <ul>
+                                    <li>Cocinar</li>
+                                    <li>Futbol</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="container mt-auto pb-4">
         <div class="row">
@@ -181,5 +281,4 @@
     </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
