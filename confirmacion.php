@@ -1,5 +1,7 @@
 <?php
-
+ini_set("display_errors", 1);
+ini_set("display_startup_errors",1);
+error_reporting(E_ALL);
 
 ?>
 <!DOCTYPE html>
@@ -18,7 +20,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
 </head>
-<body id="contacto" class="d-flex flex-column h-100 container">
+<body id="confirmacion" class="d-flex flex-column h-100 container">
     <header class="container">
        <?php include_once"menu.php" ?>
     </header>
@@ -26,6 +28,11 @@
         <div class="row">
             <div class="col-12 pt-3 pb-4">
                 <h1>Gracias por contactarte</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Te estaré respondiendo a la brevedad.</p>
             </div>
         </div>
         </main>

@@ -1,5 +1,40 @@
 <?php
-$pg= "contacto";
+ini_set("display_errors", 1);
+ini_set("display_startup_errors",1);
+error_reporting(E_ALL);
+
+
+
+if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
+
+    //varios destinatarios
+    $para = "marcosmino.dev@gmail.com";
+    $titulo = "Recibiste un mensaje desde tu web";
+
+    //mensaje
+    $cuerpo = "
+    Nombre: $nombre <br>
+    Correo: $correo <br>
+    Telefono: $telefono <br>
+    Mensaje: $mensaje 
+    ";
+    // para enviar un correo html, debe establecerse la cabecera content-type
+    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+    //cabeceras adicionales
+    $cabeceras .= "To: marcosmino.dev@gmail.com" . "\r\n";
+    $cabeceras .= "From: marcosmino.dev@gmail.com" . "\r\n";
+
+    //enviarlo
+    //mail( $para, $titulo, $cuerpo, $cabeceras);
+    
+    header("Location: confirmacion.php");
+}
 
 ?>
 <!DOCTYPE html>
@@ -33,7 +68,7 @@ $pg= "contacto";
                 <p>Te invito a que me contactes enviándome un mensaje o bien por whatsapp</p>
             </div>
             <div class="col-sm-6 col-12">
-                <form action="" method="POST">
+                <form action="" method="post">
                     <div class="pb-3">
                         <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" required class="form-control">
                     </div>
@@ -41,7 +76,7 @@ $pg= "contacto";
                         <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" required class="form-control">
                     </div>
                     <div class="pb-3">
-                        <input type="tel" name="txtTel" id="txtTel" placeholder="Teléfono/Whatsapp" class="form-control">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Whatsapp" class="form-control">
                     </div>
                     <div class="pb-3">
                         <textarea name="txtMensaje" id="txtMensaje" required minlength="30" maxlength="210" class="form-control"  placeholder="Escribe aquí tu mensaje"></textarea>
