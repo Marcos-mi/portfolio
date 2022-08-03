@@ -87,6 +87,8 @@ if($_POST){
                 </form>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
         </main>
         <footer class="container mt-auto pb-4">
             <div class="row">
@@ -107,6 +109,6 @@ if($_POST){
         <div class="btn-whatsapp">
             <a href="https://api.whatsapp.com/send?phone=541164410033"target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
-        <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+        
 </body>
 </html>
