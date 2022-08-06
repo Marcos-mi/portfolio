@@ -12,7 +12,6 @@ $pg= "inicio";
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -39,10 +38,6 @@ $pg= "inicio";
                 <a href="proyectos.php" class="btn ">Conoce mis proyectos</a>
             </div>
         </div>
-
-
-
-
     </main>
     <footer class="container mt-auto pb-4">
         <div class="row">
@@ -64,5 +59,6 @@ $pg= "inicio";
         <a href="https://api.whatsapp.com/send?phone=541164410033" target="_blank" title="Whatsapp" ><i class="fa-brands fa-whatsapp"></i></a>
     </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

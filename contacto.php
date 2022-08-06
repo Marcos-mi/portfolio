@@ -1,4 +1,5 @@
 <?php
+$pg= "contacto";
 ini_set("display_errors", 1);
 ini_set("display_startup_errors",1);
 error_reporting(E_ALL);
@@ -47,7 +48,6 @@ if($_POST){
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -87,7 +87,6 @@ if($_POST){
                 </form>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
         </main>
         <footer class="container mt-auto pb-4">
@@ -109,6 +108,6 @@ if($_POST){
         <div class="btn-whatsapp">
             <a href="https://api.whatsapp.com/send?phone=541164410033"target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
-        
+        <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

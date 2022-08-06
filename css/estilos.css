@@ -65,7 +65,10 @@ body{
     border-radius: 70%;
 }
 #sobre-mi h2{
-    font-size: 20px;
+    font-size: 24px;
+}
+.experiencia-laboral{
+    color: #370a6d;
 }
 .micv a{
     font-weight: 300 !important;
@@ -80,6 +83,10 @@ body{
 }
 .experiencial {
     color: #370a6d;
+}
+.link-secundario{
+    text-decoration: none;
+    color: black;
 }
 .btn-rojo{
     color: white;
@@ -326,5 +333,10 @@ nav .active{
         border: 1px solid #E20000;
         border-radius: 15px;
         font-weight: 500;
+    }
+    nav .active{
+        border: 1px solid #E20000;
+        border-radius: 10px;
+        padding: 3px 10px 3px 10px;
     }
 }

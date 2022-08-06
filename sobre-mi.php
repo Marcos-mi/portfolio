@@ -13,7 +13,6 @@ $pg= "sobre-mi";
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -27,13 +26,13 @@ $pg= "sobre-mi";
         <div class="container">
             <div class="row">
                 <div class="col-7">
-                    <h1 class="mt-4 pb-4">Sobre mí</h1>
+                    <h1 class="pt-sm-4 pt-0 pb-sm-4 pb-sm-2">Sobre mí</h1>
                     <p class="pb-4">Apasionado por la tecnología. Soy estudiante de
                         programación Full Stack y de Base de datos.</p>
                     <a href="contacto.php" class="btn text-white">Enviar Mensaje</a>
                 </div>
                 <div class="col-sm-5 col-12 mt-sm-0 mt-5">
-                    <img src="imageS/profile-Marcos-Miño.png" alt="Marcos Miño" class="mi-foto img-fluid">
+                    <img src="images/marcosmi.png" alt="Marcos Miño" class="mi-foto img-fluid">
                 </div>
             </div>
         </div>
@@ -124,11 +123,11 @@ $pg= "sobre-mi";
         <section class="container" id="experiencia ">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
-                    <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
+                    <h2 class="experiencia-laboral"><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
                 </div>
             </div>
                 <div class="row shadow">
-                    <div class="col-2 p-5 my-auto">
+                    <div class="col-2 p-5 my-auto d-none d-sm-block">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-10 p-3 pt-4">
@@ -137,7 +136,7 @@ $pg= "sobre-mi";
                         <h5>(Noviembre) 2018 - (Julio) 2021</h5>
                         <p>Reparación de hardware y software</p>
                     </div>
-                    <div class="col-2 p-5 my-auto">
+                    <div class="col-2 p-5 my-auto  d-none d-sm-block">
                         <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-10 p-3">
@@ -146,50 +145,23 @@ $pg= "sobre-mi";
                         <h5>(Septiembre) 2021 - (Febrero) 2022</h5>
                         <p>Venta de art de limpieza y reposición de productos.</p>
                     </div>
-                    <div class="col-2  p-5 my-auto">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
-                    </div>
-                    <div class="col-10 pb-2 p-3">
-                        <h3>Lorem</h3>
-                        <h4>Lorem</h4>
-                        <h5>Lorem</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
-                    </div>
             </div>
         </section>
         <section class="container" id="formacion">
             <div class="row">
-                <div class="col-12 pt-5 pb-4">
+                <div class="col-12 pt-5 pb-4  d-none d-sm-block">
                 <h2><i class="fas fa-graduation-cap"></i> Formación acádémica</h2>
                 </div>
             </div>
                 <div class="row shadow p-1">
-                    <div class="col-2 p-5 my-auto">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    <div class="col-2 p-5 my-auto  d-none d-sm-block">
+                        <img src="images/secundaria.jpg" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-4 p-3">
-                        <h3>Lorem</h3>
-                        <h4>Lorem</h4>
-                        <h5>2022 - 2022</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
-                    </div>
-                    <div class="col-2 p-5 my-auto">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
-                    </div>
-                    <div class="col-4 p-3">
-                        <h3>Lorem</h3>
-                        <h4>Lorem</h4>
-                        <h5>2022 - 2022</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
-                    </div>
-                    <div class="col-2 p-5 my-auto">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
-                    </div>
-                    <div class="col-4 p-3">
-                        <h3>Lorem</h3>
-                        <h4>Lorem</h4>
-                        <h5>2022 - 2022</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
+                    <div class="col-sm-4 col-12 p-3">
+                        <h3>Bachiller en economía y administración</h3>
+                        <h4>EES N°13</h4>
+                        <h5>2015 - 2020</h5>
+                        <a class="link-secundario" href="https://escuelas.guiabbb.com.ar/0196919/Escuela_Media_13_Cecilia_Grierson_(Oficial)">Escuela Media 13 Cecilia Grierson</a>
                     </div>
             </div>
         </section>  
@@ -200,28 +172,29 @@ $pg= "sobre-mi";
                 </div>
             </div>
             <div class="row shadow p-1">
-                    <div class="col-2 p-5 my-auto gris">
+                    <div class="col-2 p-5 my-auto gris  d-none d-sm-block">
                         <img src="images/logo-depcsuite.svg" alt="DePcSuite SA" class="img-fluid">
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-sm-4 col-12 p-3">
                         <h3>Programación Web Full Stack</h3>
                         <h4>DEPCSUITE SA</h4>
                         <h5>(Mayo) 2022 - Actualidad</h5>
                     </div>
-                    <div class="col-2 p-5 my-auto gris">
+                    <div class="col-2 p-5 my-auto gris  d-none d-sm-blocks">
                         <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-sm-4 col-12 p-3">
                         <h3>Programación Web Full Stack</h3>
                         <h4>Educación IT</h4>
                         <h5>(Abril) 2022 - Actualidad</h5>                    </div>
-                    <div class="col-2 p-5 my-auto gris">
+                    <div class="col-2 p-5 my-auto gris  d-none d-sm-block">
                         <img src="images/udemy.png" alt="sin logo" class="img-fluid">
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-sm-4  col-12 p-3">
                         <h3>Desarrollo Web</h3>
                         <h4>UDEMY-Juan Pablo De la Torre Valdez</h4>
-                        <h5>(Febrero) 2022 - Actualidad</h5>                    </div>
+                        <h5>(Febrero) 2022 - Actualidad</h5>                   
+                     </div>
             </div>
         </section>
         <section id="idiomas">

@@ -52,7 +52,7 @@ $pg= "proyectos";
                             <a href="#" class="btn-rojo">Ver online</a>
                         </div>
                         <div class="col-6 link-proyectos">
-                            <a href="#">Código fuente</a>
+                            <a target="_blank" href="https://github.com/Marcos-mi/php/tree/main/abmclientes">Código fuente</a>
                         </div>
                     </div>
                 </div>

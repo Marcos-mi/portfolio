@@ -1,6 +1,6 @@
-        <nav class="navbar navbar-expand-md mb-4">
+        <nav class="navbar navbar-expand-md mb-sm-4 mb-0">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -21,7 +21,7 @@
                     </ul>
                     <div>
                         <li class="cv p-2 btn mt-1">
-                             <a href="images/Cv-Marcos-Miño (2).pdf">Descarga mi CV<i class="fa-solid fa-download"></i></a>
+                             <a href="https://www.canva.com/design/DAFDtPJrmx0/YVE5nHj5VEGSq3oZe_pRVQ/view?utm_content=DAFDtPJrmx0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Descarga mi CV<i class="fa-solid fa-download"></i></a>
                         </li>
                     </div>
                 </div>
