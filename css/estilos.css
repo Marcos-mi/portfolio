@@ -6,6 +6,10 @@ body{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
 }
+#confirmacion{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+}
 #proyectos{
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
@@ -14,7 +18,7 @@ body{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
 }
-#contacto h1, #proyectos h1, #sobre-mi h1{
+#contacto h1, #proyectos h1, #sobre-mi h1, #confirmacion h1{
      color: #E20000;
 }
 #proyectos h2 {
@@ -220,10 +224,10 @@ nav .active{
     border-radius: 20px;
     padding: 5px 20px 5px 20px;
 }
-#contacto footer, #inicio footer{
+#contacto footer, #inicio footer, #confirmacion footer{
     color: white;
 }
-#contacto footer a, #inicio footer a{
+#contacto footer a, #inicio footer a, #confirmacion footer a{
     color: white;
 }
 #proyectos footer, #sobre-mi footer{
@@ -233,11 +237,11 @@ nav .active{
 #proyectos footer a, #sobre-mi footer a{
     color: #E20000;
 }
-#inicio footer .fa-github, #contacto footer .fa-github {
+#inicio footer .fa-github, #contacto footer .fa-github,  #confirmacion footer .fa-github {
     font-size: 30px;
     color: white;
 }
-#inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in{
+#inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in, #confirmacion footer .fa-linkedin-in{
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -302,10 +306,10 @@ nav .active{
     #contacto  .sponsor, #inicio .sponsor{
         color: #E20000;
     }
-    #contacto .btn-whatsapp, #proyectos .btn-whatsapp, #inicio .btn-whatsapp, #sobre-mi .btn-whatsapp{
+    #contacto .btn-whatsapp, #proyectos .btn-whatsapp, #inicio .btn-whatsapp, #sobre-mi .btn-whatsapp, #confirmacion .btn-whatsapp{
         right:10px;
     }
-    #contacto .fa-whatsapp, #proyectos .btn-whatsapp, #inicio .btn-whatsapp, #sobre-mi .fa-whatsapp{
+    #contacto .fa-whatsapp, #proyectos .btn-whatsapp, #inicio .btn-whatsapp, #sobre-mi .fa-whatsapp, #confirmacion .btn-whatsapp{
         font-size: 32px;
         color: white;
     }
