@@ -32,7 +32,7 @@ $pg= "sobre-mi";
                     <a href="contacto.php" class="btn text-white">Enviar Mensaje</a>
                 </div>
                 <div class="col-sm-5 col-12 mt-sm-0 mt-5">
-                    <img src="images/marcosmi.png" alt="Marcos Miño" class="mi-foto img-fluid">
+                    <img src="images/marcos.png" alt="Marcos Miño" class="mi-foto img-fluid">
                 </div>
             </div>
         </div>
