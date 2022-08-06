@@ -172,7 +172,7 @@ $pg= "sobre-mi";
                 </div>
             </div>
             <div class="row shadow p-1">
-                    <div class="col-2 p-5 my-auto gris  d-none d-sm-block">
+                    <div class="col-sm-2 p-5 my-auto gris  d-none d-sm-block">
                         <img src="images/logo-depcsuite.svg" alt="DePcSuite SA" class="img-fluid">
                     </div>
                     <div class="col-sm-4 col-12 p-3">
@@ -180,14 +180,15 @@ $pg= "sobre-mi";
                         <h4>DEPCSUITE SA</h4>
                         <h5>(Mayo) 2022 - Actualidad</h5>
                     </div>
-                    <div class="col-2 p-5 my-auto gris  d-none d-sm-blocks">
+                    <div class="col-sm-2 p-5 my-auto gris  d-none d-sm-block">
                         <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
                     </div>
                     <div class="col-sm-4 col-12 p-3">
                         <h3>Programación Web Full Stack</h3>
                         <h4>Educación IT</h4>
-                        <h5>(Abril) 2022 - Actualidad</h5>                    </div>
-                    <div class="col-2 p-5 my-auto gris  d-none d-sm-block">
+                        <h5>(Abril) 2022 - Actualidad</h5>                   
+                     </div>
+                    <div class="col-sm-2 p-5 my-auto gris  d-none d-sm-block">
                         <img src="images/udemy.png" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-sm-4  col-12 p-3">
