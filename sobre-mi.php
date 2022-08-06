@@ -33,7 +33,7 @@ $pg= "sobre-mi";
                     <a href="contacto.php" class="btn text-white">Enviar Mensaje</a>
                 </div>
                 <div class="col-sm-5 col-12 mt-sm-0 mt-5">
-                    <img src="imageS/profile-Marcos-Miño.png" alt="Marcos Miño" class="mi-foto img-fluid">
+                    <img src="images/marcos.png" alt="Marcos Miño" class="mi-foto img-fluid">
                 </div>
             </div>
         </div>
@@ -145,15 +145,6 @@ $pg= "sobre-mi";
                         <h4>Art de limpieza</h4>
                         <h5>(Septiembre) 2021 - (Febrero) 2022</h5>
                         <p>Venta de art de limpieza y reposición de productos.</p>
-                    </div>
-                    <div class="col-2  p-5 my-auto">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
-                    </div>
-                    <div class="col-10 pb-2 p-3">
-                        <h3>Lorem</h3>
-                        <h4>Lorem</h4>
-                        <h5>Lorem</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores, eveniet sed cumque nam odit ea atque. Molestiae, corrupti amet fuga nihil consequatur porro eveniet harum totam odit. Ullam, est?</p>
                     </div>
             </div>
         </section>
