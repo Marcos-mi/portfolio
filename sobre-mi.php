@@ -162,7 +162,7 @@ $pg= "sobre-mi";
                         <h3>Bachiller en economía y administración</h3>
                         <h4>EES N°13</h4>
                         <h5>2015 - 2020</h5>
-                        <a class="link-secundario" href="https://escuelas.guiabbb.com.ar/0196919/Escuela_Media_13_Cecilia_Grierson_(Oficial)">Escuela Media 13 Cecilia Grierson</a>
+                        <a  class="text-decoration-none text-dark" href="https://escuelas.guiabbb.com.ar/0196919/Escuela_Media_13_Cecilia_Grierson_(Oficial)">Escuela Media 13 Cecilia Grierson</a>
                     </div>
             </div>
         </section>  
