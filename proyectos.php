@@ -49,7 +49,7 @@ $pg= "proyectos";
                     </div>
                     <div class="row py-5">
                         <div class="col-6">
-                            <a href="#" class="btn-rojo">Ver online</a>
+                            <a target="_blank" href="https://abmclientes-marcosmi.herokuapp.com/" class="btn-rojo">Ver online</a>
                         </div>
                         <div class="col-6 link-proyectos">
                             <a target="_blank" href="https://github.com/Marcos-mi/php/tree/main/abmclientes">Código fuente</a>
