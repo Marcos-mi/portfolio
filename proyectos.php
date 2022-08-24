@@ -101,6 +101,28 @@ $pg= "proyectos";
                     </div>
                 </div>
             </div>
+            <!--Seccion 4-->
+            <div class="col-sm-4  px-4 py-4">
+                <div class="row card">
+                    <div class="col-12 p-1 integrador">
+                        <img src="images/logo_V.2.png" alt="Proyecto integrador fundacion pescar" class="img-fluid">
+                    </div>
+                    <div class="col-12 py-3 color-gradiente">
+                        <h2>Encontra tu farmacia</h2>
+                    </div>
+                    <div class="col-12 py-3">
+                        <p>Proyecto Full Stack desarrollado en Javascript, MongoDB, NodeJs, SASS,BOOTSTRAP ,HTML5, CSS3.</p>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-6">
+                            <a href="https://zonafarm.netlify.app/" class="btn-rojo" target="_blank">Ver online</a>
+                        </div>
+                        <div class="col-6 link-proyectos">
+                            <a href="https://github.com/Marcos-mi/Zona-farm" target="_blank">Código fuente</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer class="container mt-auto pb-4">
         <div class="row">

@@ -66,7 +66,7 @@ $pg= "sobre-mi";
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>React.js</h3>
-                        <img class="img-fluid mx-auto" width="60" src="images/react.png" alt="React.js">
+                        <img class="img-fluid mx-auto" width="90" src="images/react.png" alt="React.js">
                     </div>
                 </div>
                 <div class="col-sm-2 col-6 text-center">
@@ -117,6 +117,42 @@ $pg= "sobre-mi";
                         <img class="img-fluid  mx-auto" width="60" src="images/Mercadopago.jpg" alt="Mercadopago">
                     </div>
                 </div>
+                <div class="col-sm-2 col-6 text-center">
+                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
+                        <h3>Node.Js</h3>
+                        <img class="img-fluid  mx-auto" width="60" src="images/Node.js_logo.png" alt="Node js">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-6 text-center">
+                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
+                        <h3>Angular</h3>
+                        <img class="img-fluid  mx-auto" width="60" src="images/Angular_logo.png" alt="Angular">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-6 text-center">
+                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
+                        <h3>GitHub</h3>
+                        <img class="img-fluid  mx-auto" width="60" src="images/github.png" alt="GITHUB">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-6 text-center">
+                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
+                        <h3>MongoDB</h3>
+                        <img class="img-fluid  mx-auto" width="90" src="images/MongoDB_Logo.svg.png" alt="MongoDB">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-6 text-center">
+                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
+                        <h3>SASS</h3></h3>
+                        <img class="img-fluid  mx-auto" width="60" src="images/Sass_Logo.png" alt="SASS">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-6 text-center">
+                    <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
+                        <h3>Canva</h3></h3>
+                        <img class="img-fluid  mx-auto" width="60" src="images/Canva-logo-500x281.png" alt="Canva">
+                    </div>
+                </div>
             </div>
             </div>
         </section>
@@ -135,15 +171,6 @@ $pg= "sobre-mi";
                         <h4>Marcos cell</h4>
                         <h5>(Noviembre) 2018 - (Julio) 2021</h5>
                         <p>Reparación de hardware y software</p>
-                    </div>
-                    <div class="col-2 p-5 my-auto  d-none d-sm-block">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
-                    </div>
-                    <div class="col-10 p-3">
-                        <h3>Atención al cliente</h3>
-                        <h4>Art de limpieza</h4>
-                        <h5>(Septiembre) 2021 - (Febrero) 2022</h5>
-                        <p>Venta de art de limpieza y reposición de productos.</p>
                     </div>
             </div>
         </section>
