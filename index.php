@@ -16,7 +16,7 @@ $pg= "inicio";
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body id="inicio" class="container">
+<body id="inicio" class="container ">
     <header class="container">
         <?php include_once"menu.php" ?> 
     </header>
@@ -39,7 +39,7 @@ $pg= "inicio";
             </div>
         </div>
     </main>
-    <footer class="container mt-auto pb-4">
+    <footer class="container mt-auto mt-lg-5 pb-4">
         <div class="row">
             <div class="col-sm-3 col-12 text-sm-start text-center">
                 <a href="https://github.com/Marcos-mi" target="_blank" title="Github"><i class="fab fa-github"></i>
