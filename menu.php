@@ -22,8 +22,7 @@
                     <div>
                         <li class="cv p-2 btn mt-1">
                             <a href="cv/Cv-Marcos-Miño.pdf" download="Cv.MarcosMiño">Descarga mi CV <i class="fa-solid fa-download"></i></a>
-<!--                              <a href="https://www.canva.com/design/DAFDtPJrmx0/YVE5nHj5VEGSq3oZe_pRVQ/view?utm_content=DAFDtPJrmx0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Descarga mi CV<i class="fa-solid fa-download"></i></a>
- -->                        </li>
+                        </li>
                     </div>
                 </div>
             </div>

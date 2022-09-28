@@ -29,10 +29,10 @@ if($_POST){
 
     //cabeceras adicionales
     $cabeceras .= "To: marcosmino.dev@gmail.com" . "\r\n";
-    $cabeceras .= "From: marcosmino.dev@gmail.com" . "\r\n";
+    $cabeceras .= "From: marcosmino.dev@marcosmi.com" . "\r\n";
 
     //enviarlo
-    //mail( $para, $titulo, $cuerpo, $cabeceras);
+    mail( $para, $titulo, $cuerpo, $cabeceras);
     
     header("Location: confirmacion.php");
 }
