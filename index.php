@@ -47,11 +47,8 @@ $pg= "inicio";
             <a href="https://www.linkedin.com/in/marcos-mi%C3%B1o-1228a8213/" target="_blank" title="Linkedin"><i
                 class="fab fa-linkedin-in"></i></i></a>
             </div>
-            <div class="col-sm-3 col-12 text-center sponsor">
-                Sponsor: <a href="https://depcsuite.com/?v=d72a48a8ebd2">DePc Suite</a>
-            </div>
             <div class="col-sm-3 col-12 text-center">
-               <a href="mailto:marcosminof22@gmail.com">marcosminof22@gmail.com</a>
+            <a href="mailto:marcosmino.dev@gmail.com">marcosmino.dev@gmail.com</a>
             </div>
         </div>
     </footer>

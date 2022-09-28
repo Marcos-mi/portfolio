@@ -5,18 +5,22 @@ body{
 #contacto{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #confirmacion{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #proyectos{
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #inicio{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #contacto h1, #proyectos h1, #sobre-mi h1, #confirmacion h1{
      color: #E20000;

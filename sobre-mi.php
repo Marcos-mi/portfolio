@@ -26,8 +26,8 @@ $pg= "sobre-mi";
         <div class="container">
             <div class="row">
                 <div class="col-7">
-                    <h1 class="pt-sm-4 pt-0 pb-sm-4 pb-sm-2">Sobre mí</h1>
-                    <p class="pb-4">Apasionado por la tecnología. Soy estudiante de
+                    <h1 class="pt-sm-4 pt-0 mb-sm-2">Sobre mí</h1>
+                    <p class="pb-2">Apasionado por la tecnología. Soy estudiante de
                         programación Full Stack y de Base de datos.</p>
                     <a href="contacto.php" class="btn text-white">Enviar Mensaje</a>
                 </div>
@@ -123,12 +123,12 @@ $pg= "sobre-mi";
                         <img class="img-fluid  mx-auto" width="60" src="images/Node.js_logo.png" alt="Node js">
                     </div>
                 </div>
-                <div class="col-sm-2 col-6 text-center">
+               <!--  <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Angular</h3>
                         <img class="img-fluid  mx-auto" width="60" src="images/Angular_logo.png" alt="Angular">
                     </div>
-                </div>
+                </div> -->
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>GitHub</h3>
@@ -147,12 +147,12 @@ $pg= "sobre-mi";
                         <img class="img-fluid  mx-auto" width="60" src="images/Sass_Logo.png" alt="SASS">
                     </div>
                 </div>
-                <div class="col-sm-2 col-6 text-center">
+                <!-- <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Canva</h3></h3>
                         <img class="img-fluid  mx-auto" width="60" src="images/Canva-logo-500x281.png" alt="Canva">
                     </div>
-                </div>
+                </div> -->
             </div>
             </div>
         </section>
@@ -163,14 +163,16 @@ $pg= "sobre-mi";
                 </div>
             </div>
                 <div class="row shadow">
-                    <div class="col-2 p-5 my-auto d-none d-sm-block">
-                        <img src="images/sin-logo.png" alt="sin logo" class="img-fluid">
+                    <div class="col-2 p-2 my-auto d-none d-sm-block">
+                        <img src="images/servicio-tecnico.jpg" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-10 p-3 pt-4">
                         <h3>Técnico</h3>
-                        <h4>Marcos cell</h4>
+                        <h4>Servicio tecnico de celulares/tablet/pc</h4>
                         <h5>(Noviembre) 2018 - (Julio) 2021</h5>
-                        <p>Reparación de hardware y software</p>
+                        <p>Reparacion de Hardware y  software.
+                            Carga de  diferentes sistemas operativos, reparación de errores del  Software, arreglo del hardware/armado.
+                        </p>
                     </div>
             </div>
         </section>
@@ -216,17 +218,17 @@ $pg= "sobre-mi";
                         <h4>Educación IT</h4>
                         <h5>(Abril) 2022 - Actualidad</h5>                   
                      </div>
-                    <div class="col-sm-2 p-5 my-auto gris  d-none d-sm-block">
+                  <!--   <div class="col-sm-2 p-5 my-auto gris  d-none d-sm-block">
                         <img src="images/udemy.png" alt="sin logo" class="img-fluid">
                     </div>
                     <div class="col-sm-4  col-12 p-3">
                         <h3>Desarrollo Web</h3>
                         <h4>UDEMY-Juan Pablo De la Torre Valdez</h4>
                         <h5>(Febrero) 2022 - Actualidad</h5>                   
-                     </div>
+                    </div> -->
             </div>
         </section>
-        <section id="idiomas">
+        <!-- <section id="idiomas">
             <div class="container mb-5">
                 <div class="row py-5 mx-0">
                     <div class="col-sm-6 col-12 pb-3 pb-sm-0">
@@ -259,7 +261,7 @@ $pg= "sobre-mi";
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer class="container mt-auto pb-4">
         <div class="row">
@@ -269,11 +271,8 @@ $pg= "sobre-mi";
                 <a href="https://www.linkedin.com/in/marcos-mi%C3%B1o-1228a8213/" target="_blank" title="Linkedin"><i
                         class="fab fa-linkedin-in"></i></i></a>
             </div>
-            <div class="col-sm-3 col-12 sponsor text-center">
-                Sponsor: <a href="https://depcsuite.com/?v=d72a48a8ebd2">DePc Suite</a>
-            </div>
             <div class="col-sm-3 col-12 text-center">
-                <a href="mailto:marcosminof22@gmail.com">marcosminof22@gmail.com</a>
+                <a href="mailto:marcosmino.dev@gmail.com">marcosmino.dev@gmail.com</a>
             </div>
         </div>
     </footer>
