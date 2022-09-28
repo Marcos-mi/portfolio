@@ -45,9 +45,13 @@ body{
     height: 182px;
 }
 #proyectos .card p{
-    height: 100px;
+    height: 90px;
     font-size: 14px;
 }
+#proyectos img{
+    height: 177px !important;
+}
+
 #experiencia h2, #formacion h2 {
     font-weight: 400;
 }

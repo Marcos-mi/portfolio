@@ -36,7 +36,7 @@ $pg= "proyectos";
         </div>
         <!--Seccion 1-->
         <div class="row ">
-            <div class="col-sm-4 px-4 py-4">
+            <div class="col-sm-6 col-lg-4 px-4 py-4">
                 <div class="row card">
                     <div class="col-12 p-0">
                         <img src="images/abmclientes.png" alt="ABM CLIENTES" class="img-fluid">
@@ -49,7 +49,7 @@ $pg= "proyectos";
                     </div>
                     <div class="row py-5">
                         <div class="col-6">
-                            <a target="_blank" href="https://abmclientes-marcosmi.herokuapp.com/" class="btn-rojo">Ver online</a>
+                            <a target="_blank" href="abmclientes/index.php" class="btn-rojo">Ver online</a>
                         </div>
                         <div class="col-6 link-proyectos">
                             <a target="_blank" href="https://github.com/Marcos-mi/php/tree/main/abmclientes">Código fuente</a>
@@ -58,7 +58,7 @@ $pg= "proyectos";
                 </div>
             </div>
             <!--Seccion 2-->
-            <div class="col-sm-4  px-4 py-4">
+            <div class="col-sm-6 col-lg-4  px-4 py-4">
                 <div class="row card">
                     <div class="col-12 p-0">
                         <img src="images/abmventas.png" alt="Sistema de gestion de ventas" class="img-fluid">
@@ -80,9 +80,9 @@ $pg= "proyectos";
                 </div>
             </div>
             <!--Seccion 3-->
-            <div class="col-sm-4  px-4 py-4">
+            <div class="col-sm-6 col-lg-4  px-4 py-4">
                 <div class="row card">
-                    <div class="col-12 p-0 integrador">
+                    <div class="col-12 p-0">
                         <img src="images/proyecto-integrador.png" alt="Proyecto integrador" class="img-fluid">
                     </div>
                     <div class="col-12 py-3 color-gradiente">
@@ -102,7 +102,7 @@ $pg= "proyectos";
                 </div>
             </div>
             <!--Seccion 4-->
-            <div class="col-sm-4  px-4 py-4">
+            <div class="col-sm-6 col-lg-4  px-4 py-4">
                 <div class="row card">
                     <div class="col-12  integrador">
                         <img src="images/logo-v.4.3.png" alt="Proyecto integrador fundacion pescar" class="img-fluid">

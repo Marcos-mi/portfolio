@@ -21,7 +21,7 @@
                     </ul>
                     <div>
                         <li class="cv p-2 btn mt-1">
-                            <a href="cv/Cv-Marcos-Miño.pdf" download="Cv.MarcosMiño">Descarga mi CV <i class="fa-solid fa-download"></i></a>
+                            <a href="./assets/Cv-Marcos-Miño.pdf" download="Cv.MarcosMiño">Descarga mi CV <i class="fa-solid fa-download"></i></a>
                         </li>
                     </div>
                 </div>
