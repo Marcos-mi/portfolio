@@ -35,7 +35,7 @@ if($_POST){
     
         // Enviarlo
         mail($para, $titulo, $cuerpo, $cabeceras);
-        header("Location: confirmacion-envio.php");
+        header("Location: confirmacion.php");
     }
 }
 
