@@ -28,8 +28,8 @@ if($_POST){
     $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
     //cabeceras adicionales
-    $cabeceras .= "To: info@marcosmi.com" . "\r\n";
-    $cabeceras .= "From: marcosmino.dev@gmail.com" . "\r\n";
+    $cabeceras .= "To: marcosmino.dev@gmail.com" . "\r\n";
+    $cabeceras .= "From:info@marcosmi.com" . "\r\n";
 
     //enviarlo
     mail( $para, $titulo, $cuerpo, $cabeceras);
