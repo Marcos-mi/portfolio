@@ -7,34 +7,36 @@ error_reporting(E_ALL);
 
 
 if($_POST){
-    $nombre = $_POST["txtNombre"];
-    $correo = $_POST["txtCorreo"];
-    $telefono = $_POST["txtTelefono"];
-    $mensaje = $_POST["txtMensaje"];
-
-    //varios destinatarios
-    $para = "marcosmino.dev@gmail.com";
-    $titulo = "Recibiste un mensaje desde tu web";
-
-    //mensaje
-    $cuerpo = "
-    Nombre: $nombre <br>
-    Correo: $correo <br>
-    Telefono: $telefono <br>
-    Mensaje: $mensaje 
-    ";
-    // para enviar un correo html, debe establecerse la cabecera content-type
-    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-    //cabeceras adicionales
-    $cabeceras .= "To: marcosmino.dev@gmail.com" . "\r\n";
-    $cabeceras .= "From:info@marcosmi.com" . "\r\n";
-
-    //enviarlo
-    mail( $para, $titulo, $cuerpo, $cabeceras);
+    if($_POST){
+        $nombre = $_POST["txtNombre"];
+        $correo = $_POST["txtCorreo"];
+        $telefono = $_POST["txtTelefono"];
+        $mensaje = $_POST["txtMensaje"];
     
-    header("Location: confirmacion.php");
+        // Varios destinatarios
+        $para = "marcosmino.dev@gmail.com";
+        $titulo = 'Recibiste un mensaje desde tu Web';
+    
+        // mensaje
+        $cuerpo = "
+        Nombre: $nombre <br>
+        Correo: $correo <br>
+        Telefono: $telefono <br>
+        Mensaje: $mensaje
+        ";
+    
+        // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+        $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+    
+        // Cabeceras adicionales
+        $cabeceras .= 'To: marcosmino.dev@gmail.com' . "\r\n";
+        $cabeceras .= 'From: info@marcosmi.com' . "\r\n";
+    
+        // Enviarlo
+        mail($para, $titulo, $cuerpo, $cabeceras);
+        header("Location: confirmacion-envio.php");
+    }
 }
 
 ?>
