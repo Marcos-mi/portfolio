@@ -3,7 +3,7 @@ $pg= "inicio";
 
 ?>
 <!DOCTYPE html>
-<html lang="es" class="h-100">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@ $pg= "inicio";
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body id="inicio" class="d-flex flex-column h-100 container">
+<body id="inicio" class="container">
     <header class="container">
         <?php include_once"menu.php" ?> 
     </header>
