@@ -30,7 +30,7 @@ if($_POST){
         $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
     
         // Cabeceras adicionales
-        $cabeceras .= 'To: marcosmino.dev@gmail.com' . "\r\n";
+        $cabeceras .= 'To: info@marcosmi.com' . "\r\n";
         $cabeceras .= 'From: info@marcosmi.com' . "\r\n";
     
         // Enviarlo
