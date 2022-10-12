@@ -207,25 +207,29 @@ $pg= "sobre-mi";
                     </div>
                     <div class="col-sm-4 col-12 p-3">
                         <h3>Programación Web Full Stack</h3>
-                        <h4>DEPCSUITE SA</h4>
+                        <a href="https://depcsuite.com/?v=d72a48a8ebd2" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i>  DEPCSUITE SA</h4></a>
+                        <h5 class="descripcion">Capacitación  de 5 meses. Habilidades técnicas: (HTML, CSS, JavaScript,PHP,SQL, con MySQL/MariaDB,laravel,React,JQuery,
+                            API Mercado Pago,Apache.) - 100hs</h5>
                         <h5>(Mayo) 2022 - Actualidad</h5>
                     </div>
-                    <div class="col-sm-2 p-5 my-auto gris  d-none d-sm-block">
+                    <div class="col-sm-2 p-2 my-auto gris  d-none d-sm-block">
                         <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
                     </div>
                     <div class="col-sm-4 col-12 p-3">
                         <h3>Programación Web Full Stack</h3>
-                        <h4>Educación IT</h4>
+                        <a href="https://www.educacionit.com/" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i>  EDUCACIÓN IT</h4></a>
+                        <h5 class="descripcion">Capacitación laboral de 6 meses, patrocinado por JP Morgan Chase en  EducaciónIT. Habilidades técnicas: (HTML, CSS, JavaScript, Node.js, MongoDB, React.js) - 172hs tecnico y competencias interpersonales - 128 hs</h5>
                         <h5>(Abril) 2022 - Actualidad</h5>                   
                      </div>
-                  <!--   <div class="col-sm-2 p-5 my-auto gris  d-none d-sm-block">
-                        <img src="images/udemy.png" alt="sin logo" class="img-fluid">
+
+                     <div class="col-sm-2 p-4 my-auto  bg-secondary d-none d-sm-block">
+                        <img src="images/logoferpag.png" alt="devTalles" class="img-fluid">
                     </div>
                     <div class="col-sm-4  col-12 p-3">
-                        <h3>Desarrollo Web</h3>
-                        <h4>UDEMY-Juan Pablo De la Torre Valdez</h4>
-                        <h5>(Febrero) 2022 - Actualidad</h5>                   
-                    </div> -->
+                        <h3>JavaScript Moderno: Guía para dominar el lenguaje</h3>
+                        <a href="https://fernando-herrera.com/#/" target="_blank" class="text-decoration-none"><h4> <i class="fa-solid fa-square-up-right"></i> Fernando Herrera - DevTalles</h4></a>
+                        <h5>(Octubre) 2022 - Finalizado</h5>                   
+                    </div> 
             </div>
         </section>
         <!-- <section id="idiomas">

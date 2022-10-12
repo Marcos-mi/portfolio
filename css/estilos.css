@@ -224,6 +224,9 @@ textarea {
 #formacion h2, #formacion h4 {
     color: #E20000;
 }
+.descripcion{
+    color: #E20000 !important;
+}
 #desarrollo h2, #desarrollo h4 {
     color: #E20000;
 }
