@@ -123,6 +123,27 @@ $pg= "proyectos";
                     </div>
                 </div>
             </div>
+            <div class="col-sm-6 col-lg-4  px-4 py-4">
+                <div class="row card">
+                    <div class="col-12  integrador">
+                        <img src="images/administradordetareasv2.png" alt="Proyecto para administrar tareas" class="img-fluid">
+                    </div>
+                    <div class="col-12 py-3 color-gradiente">
+                        <h2>Administrador de tareas</h2>
+                    </div>
+                    <div class="col-12 py-3">
+                        <p>Proyecto desarrollado en Javascript, BOOTSTRAP ,HTML5, CSS3, WEBPACK,POO,Modulos Node.Js.</p>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-6">
+                            <a href="https://marcos-mi.github.io/App-tareas/" class="btn-rojo" target="_blank">Ver online</a>
+                        </div>
+                        <div class="col-6 link-proyectos">
+                            <a href="https://github.com/Marcos-mi/App-tareas" target="_blank">Código fuente</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer class="container mt-auto pb-4">
         <div class="row">
