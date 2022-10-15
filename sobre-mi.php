@@ -105,18 +105,18 @@ $pg= "sobre-mi";
                         <img class="img-fluid  mx-auto" width="60" src="images/git.png" alt="Git">
                     </div>
                 </div>
-                <div class="col-sm-2 col-6 text-center">
+<!--                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1">
                         <h3>Apache</h3>
                         <img class="img-fluid  mx-auto" width="60" src="images/Apache.png" alt="Apache">
                     </div>
-                </div>
-                <div class="col-sm-2 col-6 text-center">
+                </div> -->
+<!--                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Mercadopago</h3>
                         <img class="img-fluid  mx-auto" width="60" src="images/Mercadopago.jpg" alt="Mercadopago">
                     </div>
-                </div>
+                </div> -->
                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Node.Js</h3>
@@ -141,12 +141,12 @@ $pg= "sobre-mi";
                         <img class="img-fluid  mx-auto" width="90" src="images/MongoDB_Logo.svg.png" alt="MongoDB">
                     </div>
                 </div>
-                <div class="col-sm-2 col-6 text-center">
+<!--                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>SASS</h3></h3>
                         <img class="img-fluid  mx-auto" width="60" src="images/Sass_Logo.png" alt="SASS">
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
                         <h3>Canva</h3></h3>
@@ -210,7 +210,7 @@ $pg= "sobre-mi";
                         <a href="https://depcsuite.com/?v=d72a48a8ebd2" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i>  DEPCSUITE SA</h4></a>
                         <h5 class="descripcion">Capacitación  de 5 meses. Habilidades técnicas: (HTML, CSS, JavaScript,PHP,SQL, con MySQL/MariaDB,laravel,React,JQuery,
                             API Mercado Pago,Apache.) - 100hs</h5>
-                        <h5>(Mayo) 2022 - Actualidad</h5>
+                        <h5>Inicio: (Mayo) 2022 - Actualidad</h5>
                     </div>
                     <div class="col-sm-2 p-2 my-auto gris  d-none d-sm-block">
                         <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
@@ -218,8 +218,9 @@ $pg= "sobre-mi";
                     <div class="col-sm-4 col-12 p-3">
                         <h3>Programación Web Full Stack</h3>
                         <a href="https://www.educacionit.com/" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i>  EDUCACIÓN IT</h4></a>
+                        <a href="https://www.educacionit.com/perfil/marcos-mino-811405/" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i> Ver certificados</h4></a>
                         <h5 class="descripcion">Capacitación laboral de 6 meses, patrocinado por JP Morgan Chase en  EducaciónIT. Habilidades técnicas: (HTML, CSS, JavaScript, Node.js, MongoDB, React.js) - 172hs tecnico y competencias interpersonales - 128 hs</h5>
-                        <h5>(Abril) 2022 - Actualidad</h5>                   
+                        <h5>Inicio: (Abril) 2022 - Expedición: (Octubre) 2022</h5>                   
                      </div>
 
                      <div class="col-sm-2 p-4 my-auto  bg-secondary d-none d-sm-block">
@@ -228,7 +229,8 @@ $pg= "sobre-mi";
                     <div class="col-sm-4  col-12 p-3">
                         <h3>JavaScript Moderno: Guía para dominar el lenguaje</h3>
                         <a href="https://fernando-herrera.com/#/" target="_blank" class="text-decoration-none"><h4> <i class="fa-solid fa-square-up-right"></i> Fernando Herrera - DevTalles</h4></a>
-                        <h5>(Octubre) 2022 - Finalizado</h5>                   
+                        <a href="#" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i> Ver certificado</h4></a>
+                        <h5>Inicio: (Octubre) 2022 - Finalizado</h5>                   
                     </div> 
             </div>
         </section>
