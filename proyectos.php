@@ -74,7 +74,7 @@ $pg= "proyectos";
                             <a href="#" class="btn-rojo">Ver online</a>
                         </div>
                         <div class="col-6 link-proyectos">
-                            <a href="#">Código fuente</a>
+                            <a href="https://github.com/Marcos-mi/Paginas-Programas-en-php/tree/main/sistema_ventas">Código fuente</a>
                         </div>
                     </div>
                 </div>
