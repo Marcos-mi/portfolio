@@ -26,7 +26,7 @@ $pg= "sobre-mi";
         <div class="container">
             <div class="row">
                 <div class="col-7">
-                    <h1 class="pt-sm-4 pt-0 mb-sm-2">Sobre mí</h1>
+                    <h1 class="mb-sm-2">Sobre mí</h1>
                     <p class="pb-2">Apasionado por la tecnología. Soy estudiante de
                         programación Full Stack y de Base de datos.</p>
                     <a href="contacto.php" class="btn text-white">Enviar Mensaje</a>
@@ -141,18 +141,18 @@ $pg= "sobre-mi";
                         <img class="img-fluid  mx-auto" width="90" src="images/MongoDB_Logo.svg.png" alt="MongoDB">
                     </div>
                 </div>
-<!--                 <div class="col-sm-2 col-6 text-center">
+            <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
-                        <h3>SASS</h3></h3>
-                        <img class="img-fluid  mx-auto" width="60" src="images/Sass_Logo.png" alt="SASS">
+                        <h3>Alpine.js</h3></h3>
+                        <img class="img-fluid  mx-auto" width="130" src="images/alpine_long.svg" alt="Alpine.js">
                     </div>
-                </div> -->
-                <!-- <div class="col-sm-2 col-6 text-center">
+                </div> 
+                 <div class="col-sm-2 col-6 text-center">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-1 ">
-                        <h3>Canva</h3></h3>
-                        <img class="img-fluid  mx-auto" width="60" src="images/Canva-logo-500x281.png" alt="Canva">
+                        <h3>Livewire</h3>
+                        <img class="img-fluid  mx-auto" width="120" src="images/laravel-livewire.webp" alt="Canva">
                     </div>
-                </div> -->
+                </div>
             </div>
             </div>
         </section>
@@ -212,7 +212,7 @@ $pg= "sobre-mi";
                             API Mercado Pago,Apache.) - 100hs</h5>
                         <h5>Inicio: (Mayo) 2022 - Actualidad</h5>
                     </div>
-                    <div class="col-sm-2 p-2 my-auto gris  d-none d-sm-block">
+                    <div class="col-sm-2 p-0 my-auto gris  d-none d-sm-block">
                         <img src="images/logo-it.jpg" alt="Educacion IT" class="img-fluid">
                     </div>
                     <div class="col-sm-4 col-12 p-3">
@@ -223,14 +223,34 @@ $pg= "sobre-mi";
                         <h5>Inicio: (Abril) 2022 - Expedición: (Octubre) 2022</h5>                   
                      </div>
 
-                     <div class="col-sm-2 p-4 my-auto  bg-secondary d-none d-sm-block">
+                     <div class="col-sm-2 p-5 my-auto  bg-secondary d-none d-sm-block">
                         <img src="images/logoferpag.png" alt="devTalles" class="img-fluid">
                     </div>
                     <div class="col-sm-4  col-12 p-3">
                         <h3>JavaScript Moderno: Guía para dominar el lenguaje</h3>
                         <a href="https://fernando-herrera.com/#/" target="_blank" class="text-decoration-none"><h4> <i class="fa-solid fa-square-up-right"></i> Fernando Herrera - DevTalles</h4></a>
-                        <a href="#" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i> Ver certificado</h4></a>
+                        <a href="https://cursos.devtalles.com/certificates/j5gqatncsj" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i> Ver certificado</h4></a>
                         <h5>Inicio: (Octubre) 2022 - Finalizado</h5>                   
+                    </div> 
+
+                     <div class="col-sm-2 p-5 my-auto  bg-secondary d-none d-sm-block">
+                        <img src="images/logoferpag.png" alt="devTalles" class="img-fluid">
+                    </div>
+                    <div class="col-sm-4  col-12 p-3">
+                        <h3>Node.js: De cero a experto - 28.5 hs</h3>
+                        <a href="https://fernando-herrera.com/#/" target="_blank" class="text-decoration-none"><h4> <i class="fa-solid fa-square-up-right"></i> Fernando Herrera - DevTalles</h4></a>
+                        <!-- <a href="#" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i> Ver certificado</h4></a> -->
+                        <h5>Inicio: (Octubre) 2022 - En curso</h5>                   
+                    </div> 
+                    
+                     <div class="col-sm-2 p-2 my-auto gris bg-secondary d-none d-sm-block">
+                        <img src="images/logo.svg" alt="udemyJuanPabloDeLaTorreValdez" class="img-fluid">
+                    </div>
+                    <div class="col-sm-4  col-12 p-3">
+                        <h3>Laravel 9 - Crea aplicaciones y sitios Web con PHP 8  Y MVC - 19 hs</h3>
+                        <a href="https://www.udemy.com/user/juanpablodelatorrevaldez/" target="_blank" class="text-decoration-none"><h4> <i class="fa-solid fa-square-up-right"></i> Udemy - Juan Pablo de la Torre Valdez</h4></a>
+                        <!-- <a href="#" target="_blank" class="text-decoration-none"><h4><i class="fa-solid fa-square-up-right"></i> Ver certificado</h4></a> -->
+                        <h5>Inicio: (Octubre) 2022 - En curso</h5>                   
                     </div> 
             </div>
         </section>
