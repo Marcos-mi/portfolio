@@ -101,6 +101,27 @@ $pg= "proyectos";
                     </div>
                 </div>
             </div>
+            <div class="col-sm-6 col-lg-4  px-4 py-4">
+                <div class="row card">
+                    <div class="col-12 p-0">
+                        <img src="images/devsta.PNG" alt="Red social para desarrolladores" class="img-fluid">
+                    </div>
+                    <div class="col-12 py-3 color-gradiente">
+                        <h2>Devstagram</h2>
+                    </div>
+                    <div class="col-12 py-3">
+                        <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript,  HTML, CSS,Alpine.Js,Livewire,mvc, MySQL,docker,  gestion de usuarios, módulo de permisos y funcionalidades a fines.</p>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-6">
+                            <a href="#" class="btn-rojo">Ver online</a>
+                        </div>
+                        <div class="col-6 link-proyectos"> 
+                            <a href="https://github.com/Marcos-mi/Devstagram" target="_blank">Código fuente</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!--Seccion 4-->
             <div class="col-sm-6 col-lg-4  px-4 py-4">
                 <div class="row card">
