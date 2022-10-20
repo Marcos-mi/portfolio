@@ -104,7 +104,7 @@ $pg= "proyectos";
             <div class="col-sm-6 col-lg-4  px-4 py-4">
                 <div class="row card">
                     <div class="col-12 p-0">
-                        <img src="images/devsta.PNG" alt="Red social para desarrolladores" class="img-fluid">
+                        <img src="images/registrar.jpg" alt="Red social para desarrolladores" class="img-fluid">
                     </div>
                     <div class="col-12 py-3 color-gradiente">
                         <h2>Devstagram</h2>
